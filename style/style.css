@@ -12,30 +12,111 @@
     color: #006A50;
 }
 .section_title{
-    font: 40px;
+    font-size: 40px;
     font-family: "Fira Sans";
     font-weight: 600;
     line-height: 48px;
     color: #0E0E0E;
 }
 .default_p{
-    font: 16px;
+    font-size: 16px;
     font-family: "Fira Sans";
     font-weight: 400;
     line-height: 24px;
     color: #0A0A0A;
 }
 .box_title{
-    font: 20px;
+    font-size: 20px;
     font-family: "Fira Sans";
     font-weight: 600;
     line-height: 28px;
     color: #0E0E0E33;
 }
 .news_title{
-    font: 32px;
+    font-size: 32px;
     font-family: "Fira Sans";
     font-weight: 600;
     line-height: 38px;
     color: #0E0E0E33;
+}
+
+/* Header Section */
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo h2{
+    font-size: 32px;
+    font-family: "Fira Sans";
+    font-weight: 600;  
+    color: #0E0E0E;
+}
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Fira Sans";
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+.menu a:hover{
+    background-color: #006A50;
+    color: #fff;
+}
+
+/* Banner Section */
+.banner_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+    background-color: #C6E4D6;
+    padding: 100px;
+    border-radius: 24px;
+}
+.banner_text{
+    width: 57%;
+}
+.banner_image{
+    width: 43%;
+}
+.banner_text h4{
+    font-size: 24px;
+    font-family: "Fira Sans";
+    font-weight: 500;  
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner_text h1{
+    font-size: 56px;
+    font-family: "Fira Sans";
+    font-weight: 700;  
+    line-height: 70px;
+    color: #0E0E0E;
+    margin: 20px 0;
+}
+.banner_text a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    border: 1px solid #006A50;
+    font-size: 18px;
+    font-family: "Fira Sans";
+    color: #fff;
+}
+.banner_text a:hover{
+    background-color: #006a5000;
+    color: #006A50;
+    border-color: #006A50;
+}
+
+.banner_image{
+    text-align: right;
+    padding-left: 50px;
 }
