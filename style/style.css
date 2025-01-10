@@ -1,0 +1,41 @@
+/* Default Setup */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.primary_color{
+    color: #006A50;
+}
+.section_title{
+    font: 40px;
+    font-family: "Fira Sans";
+    font-weight: 600;
+    line-height: 48px;
+    color: #0E0E0E;
+}
+.default_p{
+    font: 16px;
+    font-family: "Fira Sans";
+    font-weight: 400;
+    line-height: 24px;
+    color: #0A0A0A;
+}
+.box_title{
+    font: 20px;
+    font-family: "Fira Sans";
+    font-weight: 600;
+    line-height: 28px;
+    color: #0E0E0E33;
+}
+.news_title{
+    font: 32px;
+    font-family: "Fira Sans";
+    font-weight: 600;
+    line-height: 38px;
+    color: #0E0E0E33;
+}
