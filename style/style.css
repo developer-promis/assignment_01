@@ -350,16 +350,18 @@ body{
 .blog_image1 img{
     border-radius: 24px;
     height: 306px;
+    width: 100%;
     object-fit: cover;
+
 }
 
 .blog_content1{
-    padding-left: 32px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 65%;
-   
+    padding: 0 20px;
 }
 
 .post_meta {
@@ -428,6 +430,7 @@ body{
     text-align: center;
     border: none;
     border-bottom: 1px solid #ddd;
+    outline: none;
 }
 .donate_input input::placeholder{
     color: #b7b7b7;
@@ -473,6 +476,9 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.newsletter_form input{
+    outline: unset;
+}
 .newsletter_form form{
     text-align: center;
     display: flex;
@@ -503,23 +509,23 @@ body{
 .newsletter_form form input:last-child:hover{
     cursor: pointer;
 }
-.newsletter_form input[type=submit]:focus {
+.newsletter_form input:focus {
     border: 1px solid red !important;
 }
 
 /* footer section */
+.footer_content{
+    margin: 0 100px;
+}
 .footer_content h2{
     font-size: 32px;
     font-weight: 700;
     padding: 30px 0;
-}
-hr{
-    width: 80%;
-    margin: auto;
-    height: 1px;
-    background-color: #e7e7e7;
+    border-bottom: 1px solid #ddddddc0;
 
 }
+
+
 .footer_content{
     text-align: center;
 }
